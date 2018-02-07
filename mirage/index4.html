@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <title>MIRAGE STUDIOS</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <meta name="description" content="COLORS BERLIN is a digital music magazine focusing on live shows, interviews and the best of hip hop, soul, pop and indie music.">
+</head>
+<style type="text/css">
+  h1{width:85%;font-family:roboto;font-size:92pt; margin-left:5%;}
+  h2{font-family:roboto;font-size:32pt;margin-left:-15%;}
+  p{font-size:30pt;width:105%;font-family:avenir;margin-left:-15%;}
+#masego{width:120%; position:relative;left:0%;}
+#jessereyes{width:120%;position:relative;left:0%;}
+#topaz{width:120%;position:relative;left;}
+#levan{width:120%;position:relative;left:}
+#all{font-family:roboto; font-size:54px; text-align:center;}
+
+</style>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<body>
+
+<nav>
+
+<h1 id="title">M I R A G E</h1>
+
+<hr>
+<div id="links">
+<a href="artist.html">ARTISTS</a>
+<a href="op.html">CRITIQUE</a>
+</div>
+
+<div>
+<a href="https://www.instagram.com/"><img id="smi" src="imgmmp200/photos/instagram-logo-sketch.png"></a>
+</div>
+
+<div>
+<a href="https://www.youtube.com/"><img id="smy" src="imgmmp200/photos/youtube-logo_318-76452.jpg"></a>
+</div>
+
+</nav>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="imgmmp200/photos/Kadiata-Colors-Berlin.jpg" style="width:110%">
+    <div class="text">KADIATA</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="imgmmp200/photos/COLORS_X_KIDD_KEO_06-1024x576.jpg" style="width:110%" >
+    <div class="text">KIDD KEO</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="imgmmp200/photos/MAHALIA_2500-1024x576.jpg" style="width:110%">
+    <div class="text">MAHALIA</div>
+  </div>
+<div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<p id="all">All COLORS, no genres.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="masego">
+<a href="artist.html"><img id="masego" src="imgmmp200/photos/krisy-colors-berlin.jpeg"></a>
+
+<h2> French Rap I Grunge I </h2>
+	<p>Belgium rapper and gold-record-producer Krisy aka De La Fuentes laying down the smoothest of flows.</p>
+</div>
+
+<br>
+<br>
+<div class="jessereyes">
+	<a href="artist.html"><img id="jessereyes" src="imgmmp200/photos/MG_3836_2500_JESSIE-1024x576.jpg"></a>
+	
+	<h2> R&B I Acoustic I </h2>
+	<p>Accompanied by nothing but the gentle  strums of her guitar, Toronto based singer/songwriter Jessie Reyez performs an absolutely stunning and beautiful rendition of "Figures".</p>
+</div>
+<br>
+<br>
+<div class="topaz">
+	<a href="artist.html"><img id="topaz" src="imgmmp200/photos/topaz-jones-tropciana-colors-berlin-00.jpg"></a>
+	<h2> soul& hip-hop I Shows I </h2>
+	<p>Fresher than ever, Montclair based artist provides a punchy and utterly groovy rendition of the sizzling banger that is "Tropicana" - lifted from his equally impressive Arcade project.</p>
+</div>
+<br>
+<br>
+<div class="levan">
+	<a href="artist.html"><img id="levan" src="imgmmp200/photos/Levin-Kali-Colors-Berlin.jpg"></a>
+	<h2> Soul & groovy I Shows I </h2>
+	<p>Comprised of producer Ferdous Dehzad and singer Nick Klein, Klyne create swirling electro-R&B sprinkled with pop elements that’ll blow you away.</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <img src="imgmmp200/photos/footer.png" width="120%">
+</footer>
+    
+
+
+</body>
+</html>

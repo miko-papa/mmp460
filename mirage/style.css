@@ -1,0 +1,153 @@
+<link href="index4.html" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+
+p{font-size:36pt;width:150%;font-family:avenir;text-align:left;}
+
+
+#smi{width:110px;position:relative;left:1400px;top:-145px;}
+#smy{width:60px;position:relative;left:1300px;top:-225px;}
+#links{position:relative;left:900px;top:-100px; font-size:16pt; font-family:roboto; color: black;}
+#masego{width:100%; position:relative;left:35px;}
+#jessereyes{width:150%;margin-left:20px;}
+#topaz{width:150%; margin-left:20px;}
+#levan{width:150%; margin-left:20px;}
+#all{font-family:roboto; font-size:54px; text-align:center;}
+
+<!--
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #000000; text-decoration: none; }
+-->
+
+body { 
+    background-image: url('imgmmp200/back.png');
+    position:relative;right:0%; background-size:145%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+   * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width:1250px;
+  max-width:2500px;
+  position: relative;left:7%;} 
+
+.mySlides {
+    display:none;
+}
+
+/* Next & previous buttons*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+} 
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size:75px;
+  font-family:roboto;
+  /*padding: 8px 12px;*/
+  position: absolute;
+  top:72%;left:77%;
+  width: 100%;
+  text-align:justify-all;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:all-scroll;
+  height: 15px;
+  width: 15px;
+  margin: 0 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+<link href="artist.html" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+
+h1{font-family:roboto; font-size:92pt; margin-left:5%;}
+h2{font-family:roboto; font-size:18pt;margin-left:5%;}
+h3{font-size:72pt;font-family:athletic;letter-spacing:6px;width:135%;position:relative;left:25%;text-align:justify;}
+
+
+#smi{width:110px;position:relative;left:1400px;top:-145px;}
+#smy{width:60px;position:relative;left:1300px;top:-225px;}
+#links{position:relative;left:900px;top:-100px; font-size:16pt;font-family:roboto; color: black;}
+<!--
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #000000; text-decoration: none; }
+-->
+</style>
+
+<link href="op.html" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+h1{font-family:roboto; font-size:92px; margin-left:5%;}
+h2{font-size:59pt;font-family:athletic;letter-spacing:6px;width:105%;position:relative;left:25%}
+h4{font-family:dense;font-size:24pt;position:relative;left:25%}
+p{font-family:"avenir";font-size:24pt;position:relative;left:25%;width:115%;}
+#smi{width:110px;position:relative;left:1400px;top:-145px;}
+#smy{width:60px;position:relative;left:1300px;top:-225px;}
+#links{position:relative;left:900px;top:-100px; font-size:16pt;font-family:roboto; color: black;}
+<!--
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #000000; text-decoration: none; }
+-->
+#q,#q2,#q3{font-family:"roboto-bold"; font-size:30pt;position:relative;left:25%}
+#masego{width:150%; position:relative;left:35px;}
+
+</style>
